@@ -30,6 +30,7 @@ function getBikes() {
     let endpoint = 'bikes';
     let url = state.host + endpoint;
     fetch(url)
+    /* Komplett REST API válaszból csak a JSON adatok */
     .then(response => response.json())
     .then(result => {        
         state.bikes = result;
@@ -53,6 +54,8 @@ function render() {
         rows += row;        
         console.log(bike.name)
     })
+    /* A rows változóban összegyűjtött adatokat 
+    a táblázatba tesszük */
     doc.tbody.innerHTML = rows;
 }
 
