@@ -1,0 +1,26 @@
+/*
+* File: app.js
+* Author: Nagy János
+* Copyright: 2023, Nagy János
+* Group: Szoft I-2 N
+* Date: 2023-05-11
+* Github: https://github.com/janos/
+* Licenc: GNU GPL
+*/
+
+#about {
+    border-top-style: solid; 
+    border-top-width: 6px;
+    border-top-color: red;
+    border-bottom-style: solid; 
+    border-bottom-width: 6px;
+    border-bottom-color: green;
+    text-align: center;
+    position: fixed;
+    top:50px;
+    right:-250px;
+    width: 600px;
+    transform: rotate(45deg);
+    background-color: white;
+    font-size: 8px;
+}
