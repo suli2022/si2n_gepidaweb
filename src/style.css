@@ -24,3 +24,11 @@
     background-color: white;
     font-size: 8px;
 }
+
+
+.citatum {
+    font-size: 0.4rem;
+    background-color: yellow;
+    display: inline;
+    padding: 5px;
+}
